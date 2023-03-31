@@ -274,6 +274,43 @@ nav {
     border-radius: 10px;
 }
 /* =============================shorts css=============================== */
+hr{
+    height: 5px;
+    color: rgb(229, 218, 218);
+    background-color: rgb(221, 213, 213);
+    border: none;
+    width: 90%;
+}
+.shorts{
+    overflow-x: scroll;
+}
+    .shorts-img-and-text{
+        margin: 20px 0px;
+        display: flex;
+        align-items: center;
+    }
+    .shorts-img-and-text img{
+        width: 30px;
+    }
+    .shorts{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px 30px 0px;
+    }
+    .shorts-img-and-text h2{
+        font-weight: normal;
+        margin-left: 10px;
+    }
+    .shorts .shorts-div img{
+        border-radius: 20px;
+        height: 290px;
+        width: 180px;
+    }
+
+
+
+
+
 
 /* =================================media query============================== */
 @media (max-width:1300px) {
