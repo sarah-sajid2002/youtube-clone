@@ -33,6 +33,7 @@ header{
 .vertical-nav .list:hover{
     background-color: #ccc;
     border-radius: 50%;
+    cursor: pointer;
 }
 .vertical-nav .fa-solid {
     font-size: 40px;
@@ -52,6 +53,7 @@ header{
 .vertical-nav span:hover{
     background-color: #ccc;
     border-radius: 20px;
+    cursor: pointer;
 }
 .vertical-nav  span img{
     width: 40px;
@@ -62,7 +64,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 35px 0px;
 }
 /* logo */
 .logo img{
@@ -191,3 +193,44 @@ nav{
 .tags ul li:hover{
     background-color: #c0bcbc;
 }
+/* ==============================videos section================================ */
+.videos-section{
+    margin: 30px 30px 0px 30px;
+
+}
+.video-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.videos-and-channels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0px 10px;
+}
+.video-avatar {
+display: flex;
+}
+.video-avatar img{
+    margin: 10px;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.video-avatar .text img{
+width: 15px;
+height: 15px;
+
+}
+.video-avatar .text p:nth-child(1){
+    text-align: start;
+}
+.video iframe{
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
