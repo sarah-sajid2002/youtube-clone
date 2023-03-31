@@ -57,3 +57,104 @@ header{
     width: 40px;
     padding: 10px 0px;
 }
+/* ================================ nav css===================================== */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+/* logo */
+.logo img{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+/* center nav */
+.center-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 550px;
+    height: 40px;
+    font-size: 20px;
+    padding-left:10px;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search-btn{
+    height: 40px;
+    width:50px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.fa-microphone {
+   font-size: 25px;
+   margin: 0px 20px;
+   width: 40px;
+   height: 40px;
+   padding: 10px 10px;
+   cursor: pointer;
+}
+
+
+.side-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.fa-bell,
+.three-dots{
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.nav-button{
+    width: 100px;
+    border: 1px solid #ccc;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: #3a45d6;
+    border-radius: 30px;
+    font-weight:lighter;
+    cursor: pointer;
+}
+.fa-bell:hover,
+.three-dots:hover{
+    color: grey;
+
+    font-size: 30px;
+}
+.nav-button:hover{
+    background-color: #ccc;
+
+    border: none;
+}
+.fa-microphone:hover {
+    background-color: #ccc;
+    border-radius: 50%;
+   
+ }
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
